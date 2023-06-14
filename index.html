@@ -3,37 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <title>Tour Design</title>
 </head>
 <body>
     <!-- Essa div foi criada para o backgroung cinza em toda a borda -->
-    <div>
+    <div class="container-body">
         <!-- tag para o menu de navegacão -->
-        <nav>
-            <div>Ícone</div>
-            <p> SKYLINE</p>
-            <ul>
-                <li>Home</li>
-                <li>Holidays</li>
-                <li>Flights</li>
-                <li>Cruise</li>
-                <li>Promotions</li>
-
-            </ul>
-            <div>
-                <div>
-                    <p>My Booking</p>
-                </div>
-                <div>
-                    <button>Enquire Now</button>
-                </div>
-                
-            </div>
-        </nav>
-        <!-- Essa div é para organizar as sections -->
-        <div>
-            <section>
+        <header class="container-menu">
+            <div class="icone-menu">
                 <img src="" alt="">
+                <p class="nome-menu"> SKYLINE</p>
+            </div>
+            <nav class="lista-menu">
+                <ul>
+                    <li class="lista-menu-item">Home</li>
+                    <li class="lista-menu-item">Holidays</li>
+                    <li class="lista-menu-item">Flights</li>
+                    <li class="lista-menu-item">Cruise</li>
+                    <li class="lista-menu-item">Promotions</li>
+                </ul>
+                <div>
+                    <div>
+                        <p>My Booking</p>
+                    </div>
+                    <div>
+                        <button class="botao-menu">Enquire Now</button>
+                    </div> 
+                </div>
+            </nav> 
+        </header>
+
+        <!-- Essa div é para organizar as sections -->
+        <div class="container-sessao">
+            <section class="sessao1-texto">
+                <img src="./image/IT'S ALL.png" width="300" height="280" alt="">
                 <p>We've got something for every traveller.</p>
                 <div>
                     <div>Ícone</div>
@@ -42,50 +49,47 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <img src="" alt="">
+            <section class="sessao2-imagem">
+                <img src="./image/avião.jpg" width="300" height="280" alt="">
             </section>
-            <section>
-                <div>
-                    <button>Round Trip</button>
-                    <button type="">5 Travellers</button>
-                    <button>Economy</button>
+            <section class="sessao3-data">
+                <div class="info-data">
+                    <button class="botao-info-data">Round Trip</button>
+                    <button class="botao-info-data" type="">5 Travellers</button>
+                    <button class="botao-info-data">Economy</button>
                 </div>
-                <div>
-                    <div class="destinos">
-                        <div>
+                <div class="container-destino-data">
+                    <div class="destinos-data">
+                        <div class="destino-ida-data">
                             <div>Ícone</div>
                             <h3>Vienna, Austria (VIE) </h3>
                             <p>Flying from</p>
                         </div>
                         <div>Ícone</div>
                         <div>Ícone de setas ida e volta</div>
-                        <div>
+                        <div class="destino-volta-data">
                             <div>Ícone</div>
                             <h3>Zurich, Switzerland (ZRH)</h3>
                             <p>Going to</p>
                         </div>
                     </div>
-                    <div class="datas">
-                        <div>
+                    <div class="calendario-data">
+                        <div class="ida-calendario-data">
                             <div>Ícone</div>
                             <h3>21 May 23</h3>
                             <p>Departure</p>
                         </div>
-                        <div>
+                        <div class="volta-calendario-data">
                             <div>Ícone</div>
                             <h3>31 May 23</h3>
                             <p>Return</p>
                         </div>
-                        
-
                     </div>
                     <div class="botao_pesquisa">
                         <img src="" alt="">
                     </div>
                 </div>
             </section>
-
         </div>
         
     </div>

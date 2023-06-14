@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: gray;
+}
+
+.container-body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 40px 20px 40px 20px;
+}
+
+.container-menu {
+    display: flex;
+    
+}
+
+.nome-menu {
+    font-style: bold;
+}
+
+.lista-menu {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.lista-menu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-sessao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sessao1-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao2-imagem {
+    display: flex;
+}
+
+.sessao3-data {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-data {
+
+}
+
