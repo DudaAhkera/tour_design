@@ -15,78 +15,94 @@
         <!-- tag para o menu de navegacão -->
         <header class="container-menu">
             <div class="icone-menu">
-                <img src="" alt="">
+                <img class="icone-menu-img" src="./image/aviao.png" alt="">
                 <p class="nome-menu"> SKYLINE</p>
             </div>
-            <nav class="lista-menu">
-                <ul>
-                    <li class="lista-menu-item">Home</li>
+            <nav class="link-menu">
+                <ul class="lista-menu">
+                    <li class="lista-menu-item-home">Home</li>
                     <li class="lista-menu-item">Holidays</li>
                     <li class="lista-menu-item">Flights</li>
                     <li class="lista-menu-item">Cruise</li>
                     <li class="lista-menu-item">Promotions</li>
                 </ul>
-                <div>
-                    <div>
-                        <p>My Booking</p>
-                    </div>
-                    <div>
-                        <button class="botao-menu">Enquire Now</button>
-                    </div> 
-                </div>
+                <p class="texto-menu">My Booking</p>
+                <img class="link-menu-img" src="./image/enquire.png" alt="">
             </nav> 
         </header>
 
-        <!-- Essa div é para organizar as sections -->
+        <!-- Essa div é para organizar as duas sessões -->
         <div class="container-sessao">
             <section class="sessao1-texto">
-                <img src="./image/IT'S ALL.png" width="300" height="280" alt="">
-                <p>We've got something for every traveller.</p>
-                <div>
-                    <div>Ícone</div>
-                    <div>
-                        <h2>Play our Video Review</h2>
-                    </div>
+                <img class="sessao1-texto-img" src="./image/its_all_print.jpg" width="480" height="280" alt="">
+                <p class="sessao1-texto-texto" >We've got something for every traveller.</p>
+                <div class="texto-play">
+                    <img src="./image/play.png" alt="">
+                    <p>Play our Video Review</p>
                 </div>
             </section>
             <section class="sessao2-imagem">
-                <img src="./image/avião.jpg" width="300" height="280" alt="">
+                <img src="./image/fly_mulher_print.png" width="500" height="420" alt="">
             </section>
+        </div>
+        <div class="sessao-de-baixo">
             <section class="sessao3-data">
                 <div class="info-data">
-                    <button class="botao-info-data">Round Trip</button>
-                    <button class="botao-info-data" type="">5 Travellers</button>
+                    <!-- botoes superiores  na terceira sessão-->
+                    <div class="info-data-btn-um">
+                        <button class="botao-info-data-um">Round Trip</button>
+                        <img class="info-data-btn-um-img" src="./image/seta-para-baixo.png" alt="">
+                    </div>
+                    <div class="info-data-btn">
+                        <button class="botao-info-data" type="">5 Travellers</button>
+                        <img class="info-data-btn-img" src="./image/seta-para-baixo.png" alt="">
+                    </div>
+                   <div class="info-data-btn">
                     <button class="botao-info-data">Economy</button>
+                    <img class="info-data-btn-img" src="./image/seta-para-baixo.png" alt="">
+                   </div>
                 </div>
                 <div class="container-destino-data">
                     <div class="destinos-data">
                         <div class="destino-ida-data">
-                            <div>Ícone</div>
-                            <h3>Vienna, Austria (VIE) </h3>
-                            <p>Flying from</p>
+                            <img class="destino-ida-data-img" src="./image/pin.png" alt="">
+                            <div class="destino-ida-data-texto">
+                                <h3>Vienna, Austria (VIE) </h3>
+                                <p>Flying from</p>    
+                            </div>
                         </div>
-                        <div>Ícone</div>
-                        <div>Ícone de setas ida e volta</div>
+                        <!--Ícone de seta vai e volta (imagem)-->
+                        <img src="./image/vai-e-volta.png" alt="">
+                        <img class="icone-sessao-de-baixo" src="./image/seta-para-cima.png" alt="">
+
                         <div class="destino-volta-data">
-                            <div>Ícone</div>
-                            <h3>Zurich, Switzerland (ZRH)</h3>
-                            <p>Going to</p>
+                            <div class="destino-ida-data-texto">
+                                <h3>Zurich, Switzerland (ZRH)</h3>
+                                <p>Going to</p>
+                            </div>
                         </div>
                     </div>
                     <div class="calendario-data">
                         <div class="ida-calendario-data">
-                            <div>Ícone</div>
-                            <h3>21 May 23</h3>
-                            <p>Departure</p>
+                            <!-- Ícone do calendário (imagem) -->
+                            <img class="icone-sessao-de-baixo" src="./image/calendario.png" alt="">
+                            <div class="ida-calendario-data-texto">
+                                <h3>21 May 23</h3>
+                                <p>Departure</p>
+                            </div>
                         </div>
                         <div class="volta-calendario-data">
-                            <div>Ícone</div>
-                            <h3>31 May 23</h3>
-                            <p>Return</p>
+                            <!-- Ícone do calendário (imagem) -->
+                            <img class="icone-sessao-de-baixo" src="./image/calendario.png" alt="">
+                            <div class="volta-calendario-data-texto">
+                                <h3>31 May 23</h3>
+                                <p>Return</p>
+                            </div>
+                            
                         </div>
                     </div>
                     <div class="botao_pesquisa">
-                        <img src="" alt="">
+                        <img src="./image/lupa.png" width="40" height="40">
                     </div>
                 </div>
             </section>
